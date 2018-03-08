@@ -1,9 +1,9 @@
-import os
-def hello(self, name):
-	print "client calling ....."
-	return "Hello, %s "% name
 
+def tambah(x,y):
 
-# def cdir(dirname):
-# 	os.mkdir(("C:\laragon\%s" %dirname))
-# 	print "Directory %s created" % dirname
+	print "Server 1 Menghitung Penjumlahan"
+	return (x + y)
+def kurang(x,y):
+
+	print "Server 1 Menghitung Pengurangan"
+	return  (x - y)
